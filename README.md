@@ -1,4 +1,4 @@
-This repository is provided as supplimentary material to the thesis titled "Extraction of Structural Component Geometries in Point Clouds ofMetal Buildings" by Alan Smith at Virginia Tech.
+This repository is provided as supplimentary material to the thesis titled "Extraction of Structural Component Geometries in Point Clouds of Metal Buildings" by Alan Smith at Virginia Tech.
 
 The file "main_caller.m" located in the "frontEnd" folder is used to launch the program.
 
