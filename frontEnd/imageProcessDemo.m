@@ -720,7 +720,7 @@ function imageProcessDemo(imgDir)
             kernel = imread([getfield(listing,{3}).folder,'\',getfield(listing,{2+options.kernelName}).name]);
             kernel = double(im2bw(kernel,0));
             kernel = kernel*2-1;
-            res = conv2(img,kernel);
+            res = conv2(img,kernel,'same');
             res = res*255/max(max(res));
             
             if strcmp(mode,'Convolution Results')

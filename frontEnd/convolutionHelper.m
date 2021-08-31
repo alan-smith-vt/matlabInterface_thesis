@@ -18,7 +18,7 @@ function [X,Y,idx] = convolutionHelper(res,thresh,kernel,epsilon,minPoints)
         for j = 1:s(2)
             if id(i,j)~= 0
                 count = count+1;
-                X(count,:) = [j-sInput(2)/2+5,i-sInput(1)/2,res(i,j)];
+                X(count,:) = [j,i,res(i,j)];%Bandaid offset Fix me%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             end
         end
     end
